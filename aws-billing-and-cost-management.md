@@ -18,11 +18,9 @@
     - Launch permissions that control which AWS accounts can use the AMI to launch instances
     - A template for the root volume for the instance (OS, application server, and applications)
     - A block device mapping that specifies the volumes to attach to the instance when it’s launched
-
-      ![](https://k2y3h8q6.stackpathcdn.com/wp-content/uploads/2018/12/AWS-Training-Amazon-EC2-2.jpg)
+        ![](https://k2y3h8q6.stackpathcdn.com/wp-content/uploads/2018/12/AWS-Training-Amazon-EC2-2.jpg)
   - Backed by Amazon EBS – root device for an instance launched from the AMI is an Amazon EBS volume. AMIs backed by Amazon EBS snapshots can use EBS encryption.
   - Backed by Instance Store – root device for an instance launched from the AMI is an instance store volume created from a template stored in S3.
-
-    ![](https://k2y3h8q6.stackpathcdn.com/wp-content/uploads/2018/12/AWS-Training-Amazon-EC2-3.jpg)
+      ![](https://k2y3h8q6.stackpathcdn.com/wp-content/uploads/2018/12/AWS-Training-Amazon-EC2-3.jpg)
   - You can copy AMIs to different regions.
 
